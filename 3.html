@@ -1,0 +1,36 @@
+<!-- Task 1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #box, #hoverBox, #buttonBox {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            display: inline-block;
+            background-color: lightgray;
+            text-align: center;
+            line-height: 100px;
+            border: 1px solid black;
+        }
+        #hoverBox {
+            background-color: #f0f0f0;
+        }
+        #buttonBox {
+            background-color: #ddd;
+        }
+    </style>
+    <title>Dynamic Styling Page</title>
+</head>
+<body>
+    <div id="box" onclick="changeColor()">Click me</div>
+    <div id="hoverBox">Hover over me</div>
+    <button id="buttonBox">Button</button>
+    <div id="anotherDiv">Another Element</div>
+    <p id="textElement">Text Element</p>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
